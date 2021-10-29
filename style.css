@@ -1,0 +1,26 @@
+body {
+    background-color:black;
+    color: white;    
+    font-style: italic;
+    background-image: url("imgBackground.jpg");
+    
+}
+
+h1 {
+    font-size: 76px;
+    
+}
+
+div {    
+    width: 300px;
+    height: 300px;
+    border-color: white;
+    border-width: 2px;
+    border-style: double;
+    border-radius: 50%;
+}
+img {
+    width: 300px;
+    height: 300px;  
+    border-radius: 50%;
+}
