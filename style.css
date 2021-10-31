@@ -1,14 +1,21 @@
 body {
-    background-color:black;
-    color: white;    
-    font-style: italic;
-    background-image: url("imgBackground.jpg");
-    
+    background-color:black;/*Cor de fundo da página, apenas para segurança*/
+    color: white;  /*Cor da maioria das fontes*/
+    font-style: italic; /*estilo da maioria das fontes*/
+    background-image: url("imgBackground.jpg"); /*Imagem de fundo*/
+    animation: imgBackgroud 15s ease infinite; /*animação da imagem de fundo*/
 }
 
 h1 {
-    font-size: 76px;
-    
+    font-size: 76px; /*Tamanho da fonte do título*/
+    line-height: 45px; /*Espaçamento entre linhas do título*/ 
+    letter-spacing: -6px; /*regra pra deixar as letras mais juntas*/
+    color: white; /*cor da fonte do título*/
+    text-shadow: /*Sombramento das boradas de cada letra do título*/
+               -1px -1px 0px black, 
+               -1px 1px 0px black,                    
+                1px -1px 0px black,                  
+                1px 0px 0px black;
 }
 
 div {    
@@ -20,7 +27,36 @@ div {
     border-radius: 50%;
 }
 img {
-    width: 300px;
-    height: 300px;  
-    border-radius: 50%;
+    width: 300px; /*Tamanho horizontal da imagem*/
+    height: 300px; /*Tamanho vertical da imagem*/
+    border-radius: 50%; /*Arredondamento das bordas*/
 }
+a:link {
+    text-decoration: none;
+    line-height: 45px;
+    color: blueviolet;
+    background-color: white;
+    font-size: 28px;   
+    padding: 15px; /*gera um espaçamento entre o que está escrito com as bordas do botão.*/
+   }
+   
+   a:hover {
+    text-decoration: underline;
+    color:blueviolet;
+    background-color:white;
+    border: solid;  
+    
+   }
+   
+   @keyframes imgBackgroud {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%; 
+    }
+   }
+   
