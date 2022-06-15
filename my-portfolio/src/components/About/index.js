@@ -1,24 +1,70 @@
+import { useState, useEffect } from 'react';
 import './index.scss';
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../AnimatedLetters';
+import Loader from 'react-loaders'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 
 export default function About() {
+  const [letterClass, setLetterClass] = useState('text-animate');
+  
+  useEffect(() => {
+    setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 3000)
+  }, [])
+  
   return (
+    <>
     <div className="container about-page">
       <div className="text-zone">
-        <h1>
-          <AnimatedLetters
-            strArray={ [ 'A', 'b', 'o', 'u', 't', ' ', 'm', 'e' ] }
-            idx={15}
-          />
-        </h1>
-        <p>O g1 é um portal de notícias brasileiro mantido pelo Grupo Globo e sob orientação da Central Globo de Jornalismo. Foi lançado em 18 de setembro de 2006, ano que a TV Globo fez 41 anos. Wikipédia
-        </p>
-        <p>Guns N' Roses é uma banda norte-americana de hard rock formada em Los Angeles, Califórnia, em 1985. A banda lançou, até o momento, seis álbuns de estúdio, três EPs e um álbum ao vivo. A banda vendeu mais de 100 milhões de cópias em todo o mundo, sendo cerca de 43 milhões somente nos Estados Unidos. Wikipédia
-        </p>
-        <p>
-          Nirvana foi uma banda norte-americana de rock formada pelo vocalista e guitarrista Kurt Cobain e pelo baixista Krist Novoselic em Aberdeen no ano de 1987, que obteve grande sucesso no movimento grunge de Seattle no início dos anos 1990. Wikipédia
-        </p>
+      <h1>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              idx={15}
+            />
+          </h1>
+          <p>
+            I'm very ambitious front-end developer looking for a role in
+            established IT company with the opportunity to work with the latest
+            technologies on challenging and diverse projects.
+          </p>
+          <p align="LEFT">
+            I'm quietly confident, naturally curious, and perpetually working on
+            improving my chops one design problem at a time.
+          </p>
+          <p>
+            If I need to define myself in one sentence that would be a family
+            person, father of a beautiful daughter, a sports fanatic,
+            photography enthusiast, and tech-obsessed!!!
+          </p>
+        </div>
+
+        <div className="stage-cube-cont">
+          <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+            </div>
+          </div>
       </div>
     </div>
+    <Loader type="pacman" />
+    </>
   )
 }
