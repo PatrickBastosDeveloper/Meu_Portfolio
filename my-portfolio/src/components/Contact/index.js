@@ -67,7 +67,7 @@ export default function Contact() {
           </div>
       </div>
     </div>
-    <Loader type="pacman"/>
+    <Loader type="cube-transition"/>
    </>
   )
 }

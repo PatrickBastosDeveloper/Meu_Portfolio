@@ -64,7 +64,7 @@ export default function About() {
           </div>
       </div>
     </div>
-    <Loader type="pacman" />
+    <Loader type="cube-transition"/>
     </>
   )
 }
