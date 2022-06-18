@@ -35,7 +35,7 @@ export default function Contact() {
           <h1>
             <AnimatedLetters 
             letterClass={letterClass}
-            strArray={['C','o','n','t','a','c','t',' ','m','e',]}
+            strArray={['V','a','m','o','s',' ','c','o','n','v','e','r','s','a','r','?']}
             idx={15}
             />
           </h1>

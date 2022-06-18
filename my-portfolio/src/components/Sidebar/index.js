@@ -56,6 +56,7 @@ export default function Sidebar() {
       <ul>
         <li>
           <a
+            className="github"
             target="_blank"
             rel="noreferrer"
             href="https://github.com/PatrickBastosDeveloper"

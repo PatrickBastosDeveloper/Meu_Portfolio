@@ -21,7 +21,7 @@ export default function About() {
       <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={['U','m',' ','p','o','u','c','o',' ','s','o','b','r','e',' ','m','i','m']}
               idx={15}
             />
           </h1>

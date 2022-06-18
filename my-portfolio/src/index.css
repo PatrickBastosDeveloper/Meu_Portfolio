@@ -6,9 +6,18 @@ body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', sans-serife;
   color: #444;
-  background: #022c43;
+  background: #0077b6ff;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* SCSS HEX */
+/* 
+$midnight-blue: #03045eff;
+$star-command-blue: #0077b6ff;
+$pacific-blue: #00b4d8ff;
+$middle-blue: #90e0efff;
+$light-cyan: #caf0f8ff; 
+*/
