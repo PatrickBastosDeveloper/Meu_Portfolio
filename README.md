@@ -1,4 +1,8 @@
-![Banner](Banner-Readme.png)
+<!-- ![Banner](Banner-Readme.png) -->
+<p align="center">
+  <img src="Banner-Readme.png" width="350" alt="banner portfolio">
+</p>
+
 # Meu Portfólio
 
 # Página dedicada às atualizações dos meus projetos e habilidades. 
