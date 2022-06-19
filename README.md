@@ -3,9 +3,11 @@
   <img src="Banner-Readme.png" width="350" alt="banner portfolio">
 </p>
 
-# Meu Portfólio
 
-# Página dedicada às atualizações dos meus projetos e habilidades. 
+<h1 align="rigth">Meu Portfolio</h1>
+
+
+Página dedicada às atualizações dos meus projetos e habilidades. 
 
 emailjs
 fortawesom
