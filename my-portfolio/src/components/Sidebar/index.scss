@@ -1,7 +1,7 @@
 .nav-bar {
   background: #caf0f8ff;
   width: 85px;
-  height: 100%;
+  height: 120%;
   position: absolute;
   top: 0;
   z-index: 3;
@@ -28,7 +28,7 @@
    position: absolute;
    height: 210px;
    top: 18%;
-   margin-top: -110px;
+   margin-top: -50px;
    width: 100%;
    a {
         font-size: 22px;
@@ -107,18 +107,20 @@
     list-style: none;
     text-align: center;
     margin: 0;
-
+    margin-top: 100%;
+    
     li {
       a {
         color: #4d4d4e;
-        padding: 7px 0;
+        padding: 15px 0;
         display: block;
         font-size: 15px;
         line-height: 16px;
+        margin-top: -120px;
         .github:hover {
           color: black;
         }
-  
+        
         .linkedin:hover {
           color: #0077b6ff;
         }
