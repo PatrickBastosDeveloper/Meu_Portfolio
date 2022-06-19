@@ -14,7 +14,6 @@ Badges
 ![GitHub forks](	https://img.shields.io/github/forks/PatrickBastosDeveloper/Meu_Portfolio)
 ![GitHub stars](	https://img.shields.io/github/stars/PatrickBastosDeveloper/Meu_Portfolio)
 ![GitHub license](https://img.shields.io/github/license/PatrickBastosDeveloper/Meu_Portfolio)
-![Twitter](	https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FPatrickBastosDeveloper%2FMeu_Portfolio%2F)
 
 ### Tecnologias utilizadas
 
