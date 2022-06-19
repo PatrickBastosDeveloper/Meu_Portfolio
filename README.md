@@ -1,4 +1,3 @@
-<!-- ![Banner](Banner-Readme.png) -->
 <p align="center">
   <img src="Banner-Readme.png" width="350" alt="banner portfolio">
 </p>
