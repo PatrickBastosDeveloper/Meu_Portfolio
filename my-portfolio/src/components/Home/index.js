@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders';
+import patrickCartoon from '../../assets/video/patrickCartoon.mp4'
 
 export default function Home() {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -40,6 +41,16 @@ const nameArray = ['','P','a','t','r','i','c','k',' ','B','a','s','t','o','s',',
             idx={ 22 }
           />
         </h1>
+        <main>
+          <video
+          className="video"
+          src={ patrickCartoon }
+          type="video/mp4"
+          loop
+          autoPlay
+          muted
+          />
+        </main>
         <h2>Full Stack Web Developer</h2>
         <Link to="/contact" className="flat-button">CONTACT ME</Link>
       </div>
