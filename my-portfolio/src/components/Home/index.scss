@@ -1,5 +1,5 @@
 .home-page {
-  .text-zone {
+  .text-zone-home {
     position: absolute;
     left: 10%;
     top: 50%;
@@ -22,7 +22,7 @@
       color: #caf0f8ff;
       font-size: 18px;
       position: absolute;
-      margin-top: -40px;
+      margin-top: -30px;
       left: 15px;
       opacity: 0.6;
     }
@@ -34,8 +34,8 @@
       color: #caf0f8ff;
       font-size: 18px;
       position: absolute;
-      margin-top: 18px;
-      margin-left: 20px;
+      margin-top: 75px;
+      left: 15px;
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
     }
@@ -52,7 +52,7 @@
   }
   h2{
     color: #0077b6ff;
-    margin-top: 20px;
+    margin-top: 29px;
     font-weight: 400;
     font-size: 13px;
     font-family: sans-serif;

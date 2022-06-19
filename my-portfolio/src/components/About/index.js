@@ -16,8 +16,8 @@ export default function About() {
   
   return (
     <>
-    <div className="container about-page">
-      <div className="text-zone">
+    <div className="about-page">
+      <div className="text-zone-about">
       <h1>
             <AnimatedLetters
               letterClass={letterClass}

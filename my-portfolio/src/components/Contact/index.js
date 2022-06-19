@@ -32,18 +32,21 @@ export default function Contact() {
    <>
     <div className="container contact-page">
       <div className="text-zone">
-          <h1>
-            <AnimatedLetters 
-            letterClass={letterClass}
-            strArray={['V','a','m','o','s',' ','c','o','n','v','e','r','s','a','r','?']}
-            idx={15}
-            />
-          </h1>
-          <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
-          </p>
+         <div className="lets-talk">
+            <h1>
+              <AnimatedLetters 
+              letterClass={letterClass}
+              strArray={['V','a','m','o','s',' ','c','o','n','v','e','r','s','a','r','?']}
+              idx={15}
+              className="title-lets-talk"
+              />
+            </h1>
+            <p>
+              I'm very ambitious front-end developer looking for a role in
+              established IT company with the opportunity to work with the latest
+              technologies on challenging and diverse projects.
+            </p>
+          </div>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>

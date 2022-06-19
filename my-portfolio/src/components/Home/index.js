@@ -18,7 +18,7 @@ const nameArray = ['','P','a','t','r','i','c','k',' ','B','a','s','t','o','s',',
   return (
     <>
     <div className="container home-page">
-      <div className="text-zone">
+      <div className="text-zone-home">
         <h1>
           <span className={ letterClass }>O</span>
             <span className={ `${ letterClass } _12` }>l</span>

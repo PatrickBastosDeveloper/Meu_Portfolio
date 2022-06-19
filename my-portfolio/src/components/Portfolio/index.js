@@ -19,20 +19,20 @@ export default function Portfolio() {
       {
           portfolios.map((portfolio, idx) => {
               return (
-                  <div className="image-box" key={idx}>
+                  <figure className="image-box" key={idx}>
                       <img 
                       src={portfolio.cover}
                       className="portfolio-image"
                       alt="portfolio" />
-                      <div className="content">
-                          <p className="title">{portfolio.title}</p>
-                          <h4 className="description">{portfolio.description}</h4>
+                      <figcaption className="content">
+                          <h4 className="title">{portfolio.title}</h4>
+                          <p className="description">{portfolio.description}</p>
                           <button
                               className="btn"
                               onClick={() => window.open(portfolio.url)}
                           >VIEW</button>
-                      </div>
-                  </div>
+                      </figcaption>
+                  </figure>
               )
           })
       }

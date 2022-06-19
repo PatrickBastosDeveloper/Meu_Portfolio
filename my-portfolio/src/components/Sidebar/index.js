@@ -56,12 +56,11 @@ export default function Sidebar() {
       <ul>
         <li>
           <a
-            className="github"
             target="_blank"
             rel="noreferrer"
             href="https://github.com/PatrickBastosDeveloper"
           >
-            <FaGithub size={30} />
+            <FaGithub size={30} className="github"/>
           </a>
         </li>
         <li>
@@ -70,7 +69,7 @@ export default function Sidebar() {
             rel="noreferrer"
             href="https://www.linkedin.com/in/patrickbastosdeveloper/"
           >
-            <FaLinkedin size={ 30 } />
+            <FaLinkedin size={ 30 } className="linkedin"/>
           </a>
         </li>
       </ul>

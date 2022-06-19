@@ -18,13 +18,13 @@ export default function Layout() {
 
         <span
           className="tags bottom-tags"
-          style={ { fontWeight: 'bold', color: '#caf0f8ff' } }
+          style={ { fontWeight: 'bold', color: '#0077b6ff', paddingBottom: 30 } }
         >
           &lt;/body&gt;
         <br />
           <span
             className="bottom-tag-html"
-            style={ { fontWeight: 'bold', color: '#caf0f8ff' } }
+            style={ { fontWeight: 'bold', color: '#0077b6ff' } }
           >&lt;/html&gt;
           </span>
         </span>
