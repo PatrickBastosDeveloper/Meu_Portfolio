@@ -51,16 +51,16 @@ export default function Contact() {
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input type="text" name="name" placeholder="Name" required/>
+                  <input type="text" name="name" placeholder="Nome" required/>
                 </li>
                 <li className="half">
                   <input type="email" name="email" placeholder="E-mail" required/>
                 </li>
                 <li>
-                  <input placeholder="Subject" type="text" name="subject" required/>
+                  <input placeholder="Assunto" type="text" name="subject" required/>
                 </li>
                 <li>
-                  <textarea placeholder="Message" name="message" required></textarea>
+                  <textarea placeholder="Mensagem" name="message" required></textarea>
                 </li>
                 <li>
                   <input type="submit" className="flat-buttom" value="SEND"/>
