@@ -1,3 +1,4 @@
+![Banner](Banner-Readme.png)
 # Meu Portfólio
 
 # Página dedicada às atualizações dos meus projetos e habilidades. 
@@ -15,5 +16,3 @@ npm sass
 
 
 Paleta de cores: "Alta tecnologia: Empresas de tecnologia optam muito pelo uso do azul que simboliza confiança, inteligência e eficiência." - Wix Blog -https://pt.wix.com/blog/2020/02/como-escolher-as-cores-da-sua-marca
-
-![Paleta](Paleta_de_Cores_Portfolio.png)
