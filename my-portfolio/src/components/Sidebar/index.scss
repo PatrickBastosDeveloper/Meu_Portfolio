@@ -1,7 +1,7 @@
 .nav-bar {
   background: #caf0f8ff;
   width: 85px;
-  height: 120%;
+  height: 100%;
   position: absolute;
   top: 0;
   z-index: 3;
@@ -100,7 +100,7 @@
 
   ul {
     position: absolute;
-    bottom: 20px;
+    bottom: -25px;
     width: 100%;
     display: block;
     padding: 0;
