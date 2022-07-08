@@ -1,7 +1,12 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
-// import LogoS from '../../assets/images/logo-s.png';
-// import LogoSubtitle from '../../assets/images/logo_sub.png';
+import {
+  FacebookShareButton,
+  // FacebookIcon,
+  WhatsappShareButton,
+  // WhatsappIcon
+} from "react-share";
+ 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faHome,
@@ -12,17 +17,18 @@ import {
 
 import {
   FaGithub,
-  FaLinkedin
+  FaLinkedin,
+  FaFacebook,
+  FaWhatsapp
 } from "react-icons/fa";
 
 
 
 export default function Sidebar() {
+  const shareUrl = 'https://www.linkedin.com/in/patrickbastosdeveloper/';
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        {/* <img src={ LogoS } alt='logo' /> */}
-        {/* <img className="sub-logo"src={ LogoSubtitle } alt="slogodan" /> */}
       </Link>
       <nav>
         <NavLink
@@ -54,7 +60,20 @@ export default function Sidebar() {
         </NavLink>
       </nav>
       <ul>
+        <li className='share-buttom'>
+          <FacebookShareButton
+            url={ shareUrl }
+            quote={ 'Texto teste sharebottom' }>
+            <FaFacebook className='facebook' size={ 30 } round={ true } />
+          </FacebookShareButton>
+          <WhatsappShareButton
+            url={ shareUrl }
+            quote={ 'Texto teste sharebottom' }>
+            <FaWhatsapp className='whatsapp'size={ 30 } round={ true } />
+          </WhatsappShareButton>
+        </li>
         <li>
+
           <a
             target="_blank"
             rel="noreferrer"

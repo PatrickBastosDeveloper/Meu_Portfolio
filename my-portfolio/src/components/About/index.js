@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
 import './index.scss';
+import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,7 +11,7 @@ export default function About() {
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 3000)
+    }, 3500)
   }, [])
   
   return (
