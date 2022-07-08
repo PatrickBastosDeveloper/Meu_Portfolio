@@ -31,6 +31,10 @@ export default function Portfolio() {
                               className="btn"
                               onClick={() => window.open(portfolio.url)}
                           >VIEW</button>
+                          <button
+                              className="btn"
+                              onClick={() => window.open(portfolio.url)}
+                          >Repositório</button>
                       </figcaption>
                   </figure>
               )
