@@ -51,7 +51,7 @@ export default function Contact() {
               <a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/patrickbastosdeveloper?trk=profile-badge"> </a>
             </div>
             <p>
-              I'm very ambitious front-end developer looking for 
+              I'm very ambitious front-end developer looking 
             </p>
           </div>
           <div className="contact-form">
