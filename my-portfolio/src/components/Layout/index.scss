@@ -80,7 +80,6 @@
   }
   
   p {
-    font-size: 13px;
     color: #fff;
     font-family: sans-serif;
     font-weight: 300;
@@ -88,12 +87,18 @@
     animation: pulse 1s;
     &:nth-of-type(1) {
       animation-delay: 1.1s;
+      font-size: 16px;
+      text-align: justify;
     }
     &:nth-of-type(2) {
       animation-delay: 1.2s;
+      font-size: 15px;
+      text-align: justify;
     }
     &:nth-of-type(3) {
       animation-delay: 1.3s;
+      font-size: 15px;
+      text-align: justify;
     }
   }
   .text-zone {
