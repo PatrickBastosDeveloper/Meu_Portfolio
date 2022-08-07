@@ -42,16 +42,17 @@ export default function Contact() {
               />
             </h1>
               {/*A div abaixo foi disponibilizada pelo linkedin e está linkada ao script no index.html  */}
-            <div
+            {/* <div
               class="badge-base LI-profile-badge"
               data-locale="pt_BR" data-size="large"
               data-theme="light" data-type="VERTICAL"
               data-vanity="patrickbastosdeveloper"
               data-version="v1">
               <a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/patrickbastosdeveloper?trk=profile-badge"> </a>
-            </div>
+            </div> */}
             <p>
-              I'm very ambitious front-end developer looking for 
+              Me envia uma mensagem ali do lado!! <br/> Assim podemos agendar uma call para que eu
+              possa contar um pouco mais sobre mim, meus objetivos e como posso agregar a sua companhia.
             </p>
           </div>
           <div className="contact-form">

@@ -52,7 +52,7 @@ const nameArray = ['','P','a','t','r','i','c','k',' ','B','a','s','t','o','s',',
           />
         </main>
         <h2>Full Stack Web Developer</h2>
-        <Link to="/contact" className="flat-button">CONTACT ME</Link>
+        <Link to="/contact" className="flat-button">CONTATO</Link>
       </div>
     </div>
     <Loader type="cube-transition"/>

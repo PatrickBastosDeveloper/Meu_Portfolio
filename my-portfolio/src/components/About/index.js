@@ -26,18 +26,15 @@ export default function About() {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            Eu sou um full-stack atualmente focado em back end, a procura de uma posição em uma
+            empresa com projetos desafiadores e diversos.
           </p>
           <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            Estou sempre confiante que vai dar certo, curioso e pronto para um cafézinho.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            Apaixonado pela minha família, pai de um lindo e travesso menino, músico e
+            fã nº 1 da trilogia The Godfather.
           </p>
         </div>
 

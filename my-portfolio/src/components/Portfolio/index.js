@@ -30,7 +30,7 @@ export default function Portfolio() {
                           <button
                               className="btn"
                               onClick={() => window.open(portfolio.urlView)}
-                          >VIEW</button>
+                          >VISUALIZAR</button>
                           <button
                               className="btn"
                               onClick={() => window.open(portfolio.urlRepository)}
