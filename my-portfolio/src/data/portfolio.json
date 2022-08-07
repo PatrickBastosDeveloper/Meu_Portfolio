@@ -3,7 +3,7 @@
     {
       "cover": "/portfolio/projectOne/img-api-xp-myinvestments.jpeg",
       "title": "My Investments",
-      "description": "API feita para simular compra e venda de ações, e algumas funções de conta digital.",
+      "description": "API desenvolvida para simular compra e venda de ações, e algumas funções de conta digital.",
       "urlView": "https://xp-my-investments.herokuapp.com/swagger/",
       "urlRepository": "https://github.com/PatrickBastosDeveloper/XP-My-Investments"
     },
