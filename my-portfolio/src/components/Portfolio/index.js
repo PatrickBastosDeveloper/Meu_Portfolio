@@ -29,11 +29,11 @@ export default function Portfolio() {
                           <p className="description">{portfolio.description}</p>
                           <button
                               className="btn"
-                              onClick={() => window.open(portfolio.url)}
+                              onClick={() => window.open(portfolio.urlView)}
                           >VIEW</button>
                           <button
                               className="btn"
-                              onClick={() => window.open(portfolio.url)}
+                              onClick={() => window.open(portfolio.urlRepository)}
                           >Repositório</button>
                       </figcaption>
                   </figure>
