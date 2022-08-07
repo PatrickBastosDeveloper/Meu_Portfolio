@@ -29,11 +29,11 @@
       width: 100%;
       color: #141414;
       text-align: left;
-      line-height: 1.4em;
+      line-height: 1.0em; //Aqui para ajustar visibilidades do texto no card.
       font-size: 16px;
       
       img {
-        max-width: 100%;
+        // max-width: 100%;
         height: 300px;
         object-fit: cover;
         vertical-align: top;
