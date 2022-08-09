@@ -9,58 +9,38 @@
     },
     {
       "cover": "/portfolio/projectOne/em_desenvolvimento.png",
-      "title": "teste",
-      "description": "React, JSX",
-      "url": "http://google.com"
+      "title": "Blogs API",
+      "description": "API desenvolvida para a produção de conteúdos de um blog.",
+      "urlView": "http://google.com",
+      "urlRepository": "http://google.com"
     },
     {
       "cover": "/portfolio/projectOne/em_desenvolvimento.png",
       "title": "teste",
       "description": "React, JSX",
-      "url": "http://google.com"
+      "urlView": "http://google.com",
+      "urlRepository": "http://google.com"
     },
     {
       "cover": "/portfolio/projectOne/em_desenvolvimento.png",
       "title": "teste",
       "description": "React, JSX",
-      "url": "http://google.com"
+      "urlView": "http://google.com",
+      "urlRepository": "http://google.com"
     },
     {
       "cover": "/portfolio/projectOne/em_desenvolvimento.png",
       "title": "teste",
       "description": "React, JSX",
-      "url": "http://google.com"
+      "urlView": "http://google.com",
+      "urlRepository": "http://google.com"
     },
     {
       "cover": "/portfolio/projectOne/em_desenvolvimento.png",
       "title": "teste",
       "description": "React, JSX",
-      "url": "http://google.com"
-    },
-    {
-      "cover": "/portfolio/projectOne/em_desenvolvimento.png",
-      "title": "teste",
-      "description": "React, JSX",
-      "url": "http://google.com"
-    },
-    {
-      "cover": "/portfolio/projectOne/em_desenvolvimento.png",
-      "title": "teste",
-      "description": "React, JSX",
-      "url": "http://google.com"
-    },
-    {
-      "cover": "/portfolio/projectOne/em_desenvolvimento.png",
-      "title": "teste",
-      "description": "React, JSX",
-      "url": "http://google.com"
-    },
-    {
-      "cover": "/portfolio/projectOne/em_desenvolvimento.png",
-      "title": "teste",
-      "description": "React, JSX",
-      "url": "http://google.com"
+      "urlView": "http://google.com",
+      "urlRepository": "http://google.com"
     }
-
   ]
 }
