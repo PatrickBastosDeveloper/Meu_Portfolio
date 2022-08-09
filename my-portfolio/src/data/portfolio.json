@@ -16,30 +16,30 @@
     },
     {
       "cover": "/portfolio/projectOne/em_desenvolvimento.png",
-      "title": "teste",
-      "description": "React, JSX",
+      "title": "O Mundo de Oliver",
+      "description": "Página criada para o canal do meu filho.",
       "urlView": "http://google.com",
       "urlRepository": "http://google.com"
     },
     {
       "cover": "/portfolio/projectOne/em_desenvolvimento.png",
-      "title": "teste",
-      "description": "React, JSX",
+      "title": "Minhas Receitas",
+      "description": "Página desenvolvida para consumir uma API de receitas diversas.",
       "urlView": "http://google.com",
       "urlRepository": "http://google.com"
     },
     {
       "cover": "/portfolio/projectOne/em_desenvolvimento.png",
-      "title": "teste",
-      "description": "React, JSX",
+      "title": "Planet Search",
+      "description": "Página criada para pesquisar os planetas da saga Star Wars.",
       "urlView": "http://google.com",
       "urlRepository": "http://google.com"
     },
     {
       "cover": "/portfolio/projectOne/em_desenvolvimento.png",
-      "title": "teste",
-      "description": "React, JSX",
-      "urlView": "http://google.com",
+      "title": "My Wallet",
+      "description": "MyWallet",
+      "urlView": "carteira de controle de gastos com conversor de moedas",
       "urlRepository": "http://google.com"
     }
   ]
