@@ -7,5 +7,6 @@ export default defineConfig({
   base: "/my-portfolio/",
   build: {
     outDir: "build", // Define a pasta de saída correta
+    assetsDir: "static",
   },
 });
