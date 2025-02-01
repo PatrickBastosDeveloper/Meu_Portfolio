@@ -11,7 +11,7 @@ export default function About() {
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 3500)
+    }, 3000)
   }, [])
   
   return (
