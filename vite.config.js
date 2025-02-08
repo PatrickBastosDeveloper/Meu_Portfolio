@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/my-portfolio/",
   build: {
-    outDir: "build", // Define a pasta de saída correta
+    outDir: "/build", // Define a pasta de saída correta
     assetsDir: "static",
   },
 });
